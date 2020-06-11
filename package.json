@@ -1,0 +1,24 @@
+{
+  "name": "artikjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:frederic2ec/artikjs.git",
+  "author": "frederic2ec <freddy.cho@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@rollup/plugin-babel": "^5.0.3",
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "rollup": "^2.15.0",
+    "rollup-plugin-terser": "^6.1.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "files": [
+    "dist"
+  ]
+}
