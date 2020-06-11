@@ -1,2 +1,2 @@
-# artikajs
+# artikjs
 A tiny JavaScript library
