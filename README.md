@@ -1,19 +1,23 @@
 # ARTIK.js
-A Simple LightWeight Vanilla Javascript Library
-
+A simple lightweight vanilla javascript library.
 
 ## Available functions
 
-* ARTIK.alert();
+* pg.alert();
 
-* ARTIK.find();
+* pg.find();
 
-* ARTIK.write();
+* pg.write();
 
-* ARTIK.log();
+* pg.log();
 
-* ARTIK.print();
+* pg.print();
 
-* ARTIK.greet();
+* pg.greet();
 
-* ARTIK.wait();
+* pg.wait();
+
+
+
+### Why should I use Artik.js instead of vanilla javascript ?
+* ARTIK has been made with simplicity and compatibility in mind. ARTIK.js is a very lite javascript library that is and will always be compatible with old and new browsers,
