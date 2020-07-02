@@ -5,11 +5,19 @@
     // ######### ##   ##   ##   ##      ##     ##  ##  ##       ##    ##       ## 
     // ##     ## ##    ##  ##    ##     ##     ##  ##   ##  ### ##    ## ##    ## 
     // ##     ## ##     ## ##     ##    ##    #### ##    ## ###  ######   ######  
-    // By Frederic2ec and Ticass
 
+export function write(string){
+    document.write(string)
+};
 
-import { getJSON } from "./ajax";
+export function alert(string){
+    alert(string)
+};
 
-import { alert, cprint, write, wprint } from "./output";
+export function cprint(string){
+    console.log(string)
+};
 
-export { getJSON, alert, cprint, write, wprint };
+export function wprint(){
+    window.print()
+};
