@@ -12,4 +12,8 @@ import { getJSON } from "./ajax";
 
 import { alert, cprint, write, wprint } from "./output";
 
-export { getJSON, alert, cprint, write, wprint };
+import { igloo, cct, cin, iter, all, fill, filter, aFind, findex, feach} from "./arrays";
+
+export { getJSON, alert, cprint, write, wprint, igloo, cct, cin, iter, all, fill, filter, aFind, findex, feach}
+
+
