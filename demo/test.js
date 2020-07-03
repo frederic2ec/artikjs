@@ -3,10 +3,17 @@ fruits = ["apple", "cardboard"]
 
 aliment = ["juice", "box"]
 
-animal = document.getElementById("penguin");
+// var animal = document.getElementById("1234");
 
 allo = pg.cct(fruits, aliment);
 
-animal.addEventListener('click', function(){
-    console.log(allo)
-});
+allo2 = pg.cin(fruits, 1, 2);
+
+allo3 = pg.iter(aliment)
+
+pizzas = [30, 18, 1, 15]
+
+testing = function remove10(pizzaz){
+    return pizza = pizzaz.every - 10
+}; console.log(pizza)
+
