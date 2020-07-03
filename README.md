@@ -1,15 +1,28 @@
-# ARTIK.js
+         ###    ########  ########  ######## #### ##    ##           ##  ######  
+        ## ##   ##     ## ##     ##    ##     ##  ##   ##            ## ##    ## 
+       ##   ##  ##     ## ##     ##    ##     ##  ##  ##             ## ##       
+      ##     ## ########  ########     ##     ##  #####              ##  ######  
+      ######### ##   ##   ##   ##      ##     ##  ##  ##       ##    ##       ##        
+      ##     ## ##    ##  ##    ##     ##     ##  ##   ##  ### ##    ## ##    ## 
+      ##     ## ##     ## ##     ##    ##    #### ##    ## ###  ######   ######  
+      
+
+# ARTIK.js 🧊
 A simple lightweight vanilla javascript library.
 
 ## How to compile
 
 * **(Prerequesite)** install node.js 
 
-* Run "npm install"
+* Run "npm install" inside Artik's directory
 
-* Run "npm run build"
+* Run "npm run build" inside Artik's directory
 
 * you successfully compiled Artik.js
+
+### A note for developpers
+
+* if you make changes to Artik.js don't forget to compile it again 
 
 ## How do I include it in my project ?
 
@@ -21,4 +34,13 @@ A simple lightweight vanilla javascript library.
 
 
 ### Why should I use Artik.js instead of vanilla javascript ?
-* ARTIK has been made with simplicity and compatibility in mind. ARTIK.js is a very lite javascript library that is and will always be compatible with old and new browsers,
+* ARTIK has been made with simplicity and compatibility in mind. ARTIK.js is a very lite javascript library that is and will always be compatible with old and new browsers.
+
+* Instead of being one single Javascript file, Artik.js is completely modular, with each group of functions being its own separate module.
+
+* Artik is completely modern, free and open source. 
+
+
+### It's time to ditch Jquery !
+
+* In many ways thanks to jQuery, jQuery itself is no longer needed. Switch to Artik 😉 🧊
