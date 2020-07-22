@@ -13,7 +13,10 @@ allo3 = pg.iter(aliment)
 
 pizzas = [30, 18, 1, 15]
 
-testing = function remove10(pizzaz){
-    return pizza = pizzaz.every - 10
-}; console.log(pizza)
 
+
+
+
+pg.html("1234").on('click', function(){
+    this.hide()
+});
