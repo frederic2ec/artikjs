@@ -41,6 +41,13 @@ A simple lightweight vanilla javascript library.
 * Artik is completely modern, free and open source. 
 
 
+### What's the progress report ?
+
+|     **Arrays**     |   **Booleans**   | **DOM**     |
+| :------------- | :----------: | -----------: |
+|  Completed ✔️ | In progress ☑️   | Incomplete ❌   |
+
+
 ### It's time to ditch Jquery !
 
 * In many ways thanks to jQuery, jQuery itself is no longer needed. Switch to Artik 😉 🧊
