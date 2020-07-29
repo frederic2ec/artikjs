@@ -1,7 +1,6 @@
+fruits = ["apple", "cardboard"];
 
-fruits = ["apple", "cardboard"]
-
-aliment = ["juice", "box"]
+aliment = ["juice", "box"];
 
 // var animal = document.getElementById("1234");
 
@@ -9,14 +8,10 @@ allo = pg.cct(fruits, aliment);
 
 allo2 = pg.cin(fruits, 1, 2);
 
-allo3 = pg.iter(aliment)
+allo3 = pg.iter(aliment);
 
-pizzas = [30, 18, 1, 15]
+pizzas = [30, 18, 1, 15];
 
-
-
-
-
-pg.html("1234").on('click', function(){
-    this.hide()
+pg("#testBtn").on("click", function () {
+  pg("#testBtn").hide();
 });
