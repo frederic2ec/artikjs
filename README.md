@@ -45,7 +45,7 @@ A simple lightweight vanilla javascript library.
 
 |     **Arrays**     |   **Booleans**   | **DOM**     |
 | :------------- | :----------: | -----------: |
-|  Completed ✔️ | In progress ☑️   | Incomplete ❌   |
+|  Completed ✔️ | In progress ☑️   | In progress ☑️    |
 
 
 ### It's time to ditch Jquery !
