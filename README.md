@@ -10,7 +10,7 @@
 # ARTIK.js 🧊
 A simple lightweight vanilla javascript library.
 
-## How to compile
+## How to compile from source
 
 * **(Prerequesite)** install node.js 
 
@@ -20,11 +20,7 @@ A simple lightweight vanilla javascript library.
 
 * you successfully compiled Artik.js
 
-### A note for developpers
-
-* if you make changes to Artik.js don't forget to compile it again 
-
-## How do I include it in my project ?
+## How do I include it in my project if i'm compiling from source ?
 
 * put the source code in your project's asset folder
 
@@ -51,3 +47,8 @@ A simple lightweight vanilla javascript library.
 ### It's time to ditch Jquery !
 
 * In many ways thanks to jQuery, jQuery itself is no longer needed. Switch to Artik 😉 🧊
+
+### A note for non developpers or beginners
+
+* if you make changes to Artik.js either by accident or intentionnaly don't forget to compile it again.
+
