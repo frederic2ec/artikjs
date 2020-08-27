@@ -1,7 +1,7 @@
 function dom(selector) {
   const self = {
     element: document.querySelector(selector),
-    html: () => self.element,
+    html: () => self.element.innerHTML,
     on: (event, callback) => {
       self.element.addEventListener(event, callback);
     },
@@ -11,13 +11,16 @@ function dom(selector) {
     keyup: () => {
       self.element.onkeyup;
     },
-    //attributes
     val: () => {
       self.element.value;
     },
     name: () =>{
       self.element.name;
-    }
+    },
+    blur: () =>{
+      self.element.blur();
+    },
+
   };
   return self;
 }
