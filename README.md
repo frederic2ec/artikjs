@@ -32,7 +32,9 @@ A simple lightweight vanilla javascript library.
 ### Why should I use Artik.js instead of vanilla javascript ?
 * ARTIK has been made with simplicity and compatibility in mind. ARTIK.js is a very lite javascript library that is and will always be compatible with old and new browsers.
 
-* ARTIK is basically Jquery, but modern, and very lite. Easy to use, simplicity is key :key:
+* ARTIK is basically Jquery, but modern, and very lite.
+
+* It's Easy to use, simplicity is key :key:
 
 * Artik is completely modern, free and open source. 
 
