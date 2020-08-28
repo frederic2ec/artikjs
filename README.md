@@ -24,7 +24,7 @@ A simple lightweight vanilla javascript library.
 
 * put the source code in your project's asset folder
 
-* Add this line in the Head of every HTML page you want to include Artik.js in
+* Add this line at the bottom of the body of every HTML page you want to include Artik.js in
 
 [![Image from Gyazo](https://i.gyazo.com/f5796af1b3caac9b2725b15d8312f4cd.png)](https://gyazo.com/f5796af1b3caac9b2725b15d8312f4cd)
 
