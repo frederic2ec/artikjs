@@ -12,6 +12,5 @@ allo3 = pg.iter(aliment);
 
 pizzas = [30, 18, 1, 15];
 
-pg("#testBtn").on("click", function () {
-  pg("#testBtn").hide();
-});
+
+
