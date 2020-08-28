@@ -54,3 +54,27 @@ A simple lightweight vanilla javascript library.
 
 * if you make changes to Artik.js either by accident or intentionnaly don't forget to compile it again.
 
+
+## Available DOM functions
+
+* Instead of using **$** has the Query selector we decided to use **pg** 
+
+
+| **DOM**     |
+| :------------- |
+|  pg('#selector').on(event, callback) | 
+|  .setAttribute(attr, value) | 
+|  .val() returns the value | 
+|  .keyup() | 
+|  .hide() | 
+|  .html() | 
+
+
+### An Example
+```javascript
+pg('#inputEmail3').on('keyup', function(){
+   var total = pg('#inputEmail3').val()
+   pg('#amountFinal').setAttribute('value', `${total}`);
+})
+```
+
