@@ -8,18 +8,9 @@ function dom(selector) {
     hide: () => {
       self.element.style.display = "none";
     },
-    keyup: () => {
-      self.element.onkeyup;
-    },
-    val: () => {
-      self.element.value;
-    },
-    name: () =>{
-      self.element.name;
-    },
-    blur: () =>{
-      self.element.blur();
-    },
+    keyup: () =>  self.element.onkeyup,
+    val: () => self.element.value,
+    setAttribute: (attr, String) => self.element.setAttribute(attr, String),
 
   };
   return self;
