@@ -1,5 +1,7 @@
 
-# ARTIK.js <img src="https://i.imgur.com/kDXK6Bj.png" width=10% height=10%>
+<img src="https://i.imgur.com/2JXUZB1.png" width=50% height=50%>
+
+# ARTIK.js 
 A simple lightweight vanilla javascript library.
 
 ## How to compile from source
