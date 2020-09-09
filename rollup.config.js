@@ -2,11 +2,12 @@ import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import babel from "@rollup/plugin-babel";
 import { terser } from "rollup-plugin-terser";
+import typescript from '@rollup/plugin-typescript';
 
 export default [
   // browser-friendly UMD build
   {
-    input: "src/index.js",
+    input: "src/index.ts",
     output: [
       {
         name: "pg",
@@ -23,6 +24,7 @@ export default [
     plugins: [
       resolve(), // so Rollup can find `ms`
       commonjs(), // so Rollup can convert `ms` to an ES module
+      typescript(), //so rollup can compile the TypeScript
       babel({
         exclude: ["node_modules/**"],
       }),
@@ -36,13 +38,14 @@ export default [
   // an array for the `output` option, where we can specify
   // `file` and `format` for each target)
   {
-    input: "src/index.js",
+    input: "src/index.ts",
     external: ["ms"],
     output: [
       { file: "dist/artik.cjs.js", format: "cjs" },
       { file: "dist/artik.esm.js", format: "es" },
     ],
     plugins: [
+      typescript(),
       babel({
         exclude: ["node_modules/**"],
       }),
