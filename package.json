@@ -1,7 +1,7 @@
 {
   "name": "artikjs",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "repository": "git@github.com:frederic2ec/artikjs.git",
   "author": "frederic2ec <freddy.cho@hotmail.com>",
   "license": "MIT",
@@ -11,8 +11,11 @@
     "@rollup/plugin-babel": "^5.0.3",
     "@rollup/plugin-commonjs": "^13.0.0",
     "@rollup/plugin-node-resolve": "^8.0.1",
+    "@rollup/plugin-typescript": "^5.0.2",
     "rollup": "^2.15.0",
-    "rollup-plugin-terser": "^6.1.0"
+    "rollup-plugin-terser": "^6.1.0",
+    "tslib": "^2.0.1",
+    "typescript": "^4.0.2"
   },
   "scripts": {
     "build": "rollup -c",
@@ -20,5 +23,6 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {}
 }
