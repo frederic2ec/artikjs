@@ -50,10 +50,12 @@ pg('#inputEmail3').on('keyup', function(){
 })
 ```
 ### Badges
-<a href="https://gitmoji.carloscuesta.me">
+* <a href="https://gitmoji.carloscuesta.me">
   <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
 </a>
-[![TypeScript](https://badges.frapsoft.com/typescript/love/typescript.svg?v=101)](https://github.com/ellerbrock/typescript-badges/)
 
+* [![TypeScript](https://badges.frapsoft.com/typescript/code/typescript.svg?v=101)](https://github.com/ellerbrock/typescript-badges/)
+
+* [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 
