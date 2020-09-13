@@ -4,8 +4,8 @@ function dom(selector: any) {
     documentElement: document.documentElement,
     html: () => self.element.innerHTML,
     on: (...args: any[]) => {
-      const callback: any = args.pop()
-      args = args.slice(0, -2)
+      let callback: any = args[args.length - 1]
+      args = args[args.length -2]
       self.element.addEventListener(args, callback)
     },
     off: (event: string, callback: any) => {
