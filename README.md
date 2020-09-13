@@ -1,9 +1,6 @@
-
-<img src="https://i.imgur.com/2JXUZB1.png" width=100% height=25%>
-
 # ARTIK.js 
-A simple lightweight vanilla javascript library.
-
+A simple lightweight javascript library written in **TypeScript 4.0** :zap:.
+<img src="https://i.imgur.com/2JXUZB1.png" width=100% height=25%>
 ## How to compile from source
 
 * **(Prerequesite)** install node.js 
@@ -23,7 +20,7 @@ A simple lightweight vanilla javascript library.
 [![Image from Gyazo](https://i.gyazo.com/f5796af1b3caac9b2725b15d8312f4cd.png)](https://gyazo.com/f5796af1b3caac9b2725b15d8312f4cd)
 
 
-### Why should I use Artik.js instead of vanilla javascript ?
+### Why should I use Artik.js instead of Jquery ?
 * ARTIK has been made with simplicity and compatibility in mind. ARTIK.js is a very lite javascript library that is and will always be compatible with old and new browsers.
 
 * ARTIK is basically Jquery, but modern, and very lite.
@@ -33,9 +30,9 @@ A simple lightweight vanilla javascript library.
 * Artik is completely modern, free and open source. 
 
 
-### What's the progress report ?
+### What's the progress report for the DOM ?
 
-|     **Arrays**     |   **Booleans**   | **DOM**     |
+|     **Elements**     |   **Events**   | **DOM**     |
 | :------------- | :----------: | -----------: |
 |  Completed ✔️ | In progress ☑️   | In progress ☑️    |
 
@@ -43,95 +40,6 @@ A simple lightweight vanilla javascript library.
 ### It's time to ditch Jquery !
 
 * In many ways thanks to jQuery, jQuery itself is no longer needed. Switch to Artik 😉 🧊
-
-### A note for non developpers or beginners
-
-* if you make changes to Artik.js either by accident or intentionnaly don't forget to compile it again.
-
-
-## Available DOM functions
-
-* Instead of using **$** has the Query selector we decided to use **pg** 
-
-
-| **DOM**     |
-| :------------- |
-|  pg('#selector').on(event, callback) | 
-|  .setAttribute(attr, value) | 
-|  .val() returns the value | 
-|  .keyup() | 
-|  .hide() | 
-|  .html() | 
-|  .val() | 
-|  .setAttribute() | 
-|  .getNamedItem() | 
-|  .aKey() | 
-|  .attr() | 
-|  .blur() | 
-|  .childElCount() | 
-|  .clist() | 
-|  .click() | 
-|  .clientHeight() | 
-|  .clientLeft() | 
-|  .clientTop() | 
-|  .clientWidth() | 
-|  .cloneNode() | 
-|  .closest() | 
-|  .contains() | 
-|  .contentEditTable() | 
-|  .dir() | 
-|  .exitFullScreen() | 
-|  .firstChild() | 
-|  .firstElementChild() | 
-|  .focus() |
-|  .getAttribute() | 
-|  .getAttributeNode() | 
-|  .hasAttributes() | 
-|  .hasChildNodes() | 
-|  .id() | 
-|  .text() | 
-|  .insertAdjancentHTML() | 
-|  .insertAdjancentText() | 
-|  .iscontentEditable() | 
-|  .isSameNode() | 
-|  .lang() | 
-|  .lastChild() | 
-|  .lastElementChild() | 
-|  .matches() | 
-|  .nameSapceURI() | 
-|  .nextSibling() | 
-|  .nextElementSibling() | 
-|  .nodeName() |
-|  .nodeType() | 
-|  .nodeValue() | 
-|  .normalize() | 
-|  .offsetHeight() | 
-|  .offsetWidth() | 
-|  .offsetLeft() | 
-|  .offsetParent() | 
-|  .offsetTop() | 
-|  .oHTML() | 
-|  .outerText() | 
-|  .ownerDocument() | 
-|  .parentNode() | 
-|  .parentElement() | 
-|  .previousSibling() | 
-|  .previousElementSibling() | 
-|  .removeAttribute() | 
-|  .removeChild() | 
-|  .replaceChild() | 
-|  .requestFullScreen() | 
-|  .scrollHeight() | 
-|  .scrollIntoView() | 
-|  .scrollLeft() | 
-|  .scrollTop() | 
-|  .scrollWidth() | 
-|  .setAttributeNode() | 
-|  .tabIndex() | 
-|  .tagName() | 
-|  .textContent() |
-|  .title() | 
-
 
 
 ### An Example
@@ -141,4 +49,11 @@ pg('#inputEmail3').on('keyup', function(){
    pg('#amountFinal').setAttribute('value', `${total}`);
 })
 ```
+### Badges
+<a href="https://gitmoji.carloscuesta.me">
+  <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
+</a>
+[![TypeScript](https://badges.frapsoft.com/typescript/love/typescript.svg?v=101)](https://github.com/ellerbrock/typescript-badges/)
+
+
 
