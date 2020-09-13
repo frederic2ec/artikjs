@@ -1,11 +1,11 @@
 function dom(selector: any) {
   const self = {
-    element: document.querySelector(selector),
+    element: document.querySelector(selector),   
     documentElement: document.documentElement,
     html: () => self.element.innerHTML,
     on: (...args: any[]) => {
-      let callback: any = args[args.length - 1]
-      args = args[args.length - 2]
+      const callback: any = args.pop()
+      args = args.slice(0, -2)
       self.element.addEventListener(args, callback)
     },
     off: (event: string, callback: any) => {
@@ -80,11 +80,17 @@ function dom(selector: any) {
     scrollLeft: () => self.element.scrollLeft,
     scrollTop: () => self.element.scrollTop,
     scrollWidth: (alignto: string) => self.element.scrollIntoView(alignto),
+    setAttributeNode: (attrNode: string) => self.element.setAttributeNode(attrNode),
+    tabIndex: () => self.element.tabIndex,
+    tagName: () => self.element.tagName,
+    textContent: () => self.element.textContent,
+    title: () => self.element.title,
   };
   return self;
 }
 
 export default dom;
+
 
 
 
