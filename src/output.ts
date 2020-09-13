@@ -1,13 +1,13 @@
 
-export function write(string){
+export function write(string: string){
     document.write(string)
 };
 
-export function alert(string){
+export function alert(string: any){
     alert(string)
 };
 
-export function cprint(string){
+export function cprint(string: any){
     console.log(string)
 };
 

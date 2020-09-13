@@ -1,4 +1,4 @@
-export function getJSON(url) {
+export function getJSON(url: string) {
   let request = new XMLHttpRequest();
   request.open("GET", url, true);
 
@@ -17,6 +17,6 @@ export function getJSON(url) {
       }
     };
     request.send();
-    request = null;
+    // request = null;
   });
 }
