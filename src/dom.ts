@@ -4,9 +4,11 @@ function dom(selector: any) {
     documentElement: document.documentElement,
     html: () => self.element.innerHTML,
     on: (...args: any[]) => {
-      let callback: any = args[args.length - 1]
-      args = args[args.length -2]
-      self.element.addEventListener(args, callback)
+      let callback: any = args.pop()
+      args = args.slice(0, -1)
+      args.forEach(arg => {
+        self.element.addEventListener(arg, callback)
+      })
     },
     off: (event: string, callback: any) => {
       self.element.removeEventListener(event, callback);
