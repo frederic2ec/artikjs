@@ -2,20 +2,28 @@ function dom(selector: any) {
   const self = {
     element: document.querySelector(selector),   
     documentElement: document.documentElement,
-    html: () => self.element.innerHTML,
+    html: (arg: string) => {
+     arg ? self.element.innerHTML = arg : self.element.innerHTML
+    },
     on: (...args: any[]) => {
-      let callback: any = args.pop()
+      let callback: Function = args.pop()
       args = args.slice(0, -1)
       args.forEach(arg => {
         self.element.addEventListener(arg, callback)
       })
     },
-    off: (event: string, callback: any) => {
-      self.element.removeEventListener(event, callback);
+    off: (...args: any[]) => {
+      let callback: any = args.pop()
+      args = args.slice(0, -1)
+      args.forEach(arg => {
+        self.element.removeEventListener(arg, callback)
+      })
     },
     hide: () => self.element.style.display = "none",
     keyup: () =>  self.element.onkeyup,
-    val: () => self.element.value,
+    val: (arg: string) => {
+      arg ? self.element.value = arg : self.element.value
+    },
     setAttribute: (attr: string, String: string) => self.element.setAttribute(attr, String),
     getNamedItem: (nodename: any) => self.element.getNamedItem(nodename),
     aKey: () => self.element.accessKey,
@@ -92,7 +100,6 @@ function dom(selector: any) {
 }
 
 export default dom;
-
 
 
 
